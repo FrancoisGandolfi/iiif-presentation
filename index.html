@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mirador Ligéo</title>
+
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+
+  <style>
+    html, body, #mirador {
+      height: 100%;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .mirador-window-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding: 0 10px;
+      background-color: #04966f !important;
+      color: white;
+    }
+
+    .mirador-window-top-bar > * {
+      color: white !important;
+    }
+
+    .mirador-window-sidebar {
+      width: 600px !important;
+    }
+
+
+    .mirador-thumbnail-navigation {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="mirador"></div>
+
+  <script>
+    function getParameterByName(name) {
+      const url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+      const results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    const manifestUrl = getParameterByName('manifest');
+
+    Mirador.viewer({
+      id: "mirador",
+      language: "fr",
+      windows: manifestUrl ? [{
+        manifestId: manifestUrl,
+        thumbnailNavigationPosition: 'off',
+        sideBarOpen: true,
+      }] : undefined,
+      workspaceControlPanel: {
+        enabled: true
+      },
+      theme: {
+        palette: {
+          primary: {
+            main: '#ab0a3d',
+            contrastText: '#ffffff'
+          },
+          secondary: {
+            main: '#962402',
+            contrastText: '#ffffff'
+          },
+          background: {
+            default: '#ffffff',
+            paper: '#f4f4f4'
+          },
+          text: {
+            primary: '#000000',
+            secondary: '#333333'
+          }
+        }
+      },
+      window: {
+        defaultView: 'book',
+        allowClose: true,
+        allowMaximize: true,
+        allowFullscreen: true,
+        allowTopMenuButton: true,
+        allowWindowSideBar: true,
+        hideWindowTitle: false,
+        sideBarOpen: true,
+        sideBarPanel: 'info',
+      },
+    });
+  </script>
+</body>
+</html>
