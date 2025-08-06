@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest",
+  "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3.json",
   "@type": "sc:Manifest",
   "label": "Carte de lecteur de la BnF",
   "description": "Yves Pérotin",
