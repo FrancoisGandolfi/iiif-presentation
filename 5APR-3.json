@@ -7,50 +7,44 @@
   "metadata": [
     {
       "label": "Identifier",
-      "value": [
-        "5APR-3"
-      ]
+      "value": ["5APR-3"]
     },
     {
       "label": "Creator",
       "value": [
-        "<a class="uri-value-link" href="https: //www.idref.fr/071655727">P&#xE9;rotin, Yves (1922-1981)</a>"
+        "<a class=\"uri-value-link\" href=\"https://www.idref.fr/071655727\">P&#xE9;rotin, Yves (1922-1981)</a>"
       ]
     },
     {
       "label": "Contributor",
       "value": [
-        "<a class="uri-value-link" href="https: //www.idref.fr/034052313">Test, George Austin</a>"
+        "<a class=\"uri-value-link\" href=\"https://www.idref.fr/034052313\">Test, George Austin</a>"
       ]
     },
     {
       "label": "Date",
-      "value": [
-        "Yves Pérotin"
-      ]
+      "value": ["Yves Pérotin"]
     },
     {
       "label": "Publisher",
-      "value": [
-        "Yves Pérotin"
-      ]
+      "value": ["Yves Pérotin"]
     },
     {
       "label": "Spatial",
       "value": [
-        "<a class="uri-value-link" href="https: //www.geonames.org/727011">Sofia (Sofia-Capital)</a>"
+        "<a class=\"uri-value-link\" href=\"https://www.geonames.org/727011\">Sofia (Sofia-Capital)</a>"
       ]
     },
     {
       "label": "Subject",
       "value": [
-        "<a class="uri-value-link" href="https: //www.idref.fr/194902919">Compagnie Les Sans cou</a>"
+        "<a class=\"uri-value-link\" href=\"https://www.idref.fr/194902919\">Compagnie Les Sans cou</a>"
       ]
     },
     {
       "label": "Coverage",
       "value": [
-        "<a class="uri-value-link" href="https: //www.idref.fr/266685382">Sa&#x1E41;mat&#x12B;ya</a>"
+        "<a class=\"uri-value-link\" href=\"https://www.idref.fr/266685382\">Sa\u1E41mat\u012Bya</a>"
       ]
     }
   ],
@@ -62,20 +56,20 @@
   "sequences": [
     {
       "@type": "sc:Sequence",
-      "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest/sequence/normal",
+      "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/sequence/normal",
       "canvases": [
         {
-          "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/1",
+          "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/1",
           "@type": "sc:Canvas",
           "label": "Page 1",
           "height": 1460,
           "width": 1827,
           "images": [
             {
-              "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/1/annotation/1",
+              "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/1/annotation/1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/1",
+              "on": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/1",
               "resource": {
                 "@id": "https://bibnum-images.campus-condorcet.fr/iiif/2/HC_IHTP-ARC143%2F5APR%2F5APR-3%2F5APR-3_0001.JP2/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
@@ -92,17 +86,17 @@
           ]
         },
         {
-          "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/2",
+          "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/2",
           "@type": "sc:Canvas",
           "label": "Page 2",
           "height": 1460,
           "width": 1827,
           "images": [
             {
-              "@id": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/2/annotation/1",
+              "@id": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/2/annotation/1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "http://iiif-presentation.procerus.fr/5APR-3/manifest/canvas/2",
+              "on": "https://francoisgandolfi.github.io/iiif-presentation/5APR-3/canvas/2",
               "resource": {
                 "@id": "https://bibnum-images.campus-condorcet.fr/iiif/2/HC_IHTP-ARC143%2F5APR%2F5APR-3%2F5APR-3_0002.JP2/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
