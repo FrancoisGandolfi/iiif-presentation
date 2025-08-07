@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://bibnum.campus-condorcet.fr/iiif/2/196611/manifest",
+  "@id": "https://francoisgandolfi.github.io/iiif-presentation/HC_CHS-8JM_A9-1",
   "@type": "sc:Manifest",
   "label": "Lettre autographe signée de Victor Basch",
   "metadata": [
